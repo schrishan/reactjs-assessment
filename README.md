@@ -1,4 +1,7 @@
 # Counter Component - Reactjs
+
+<img src="screenshot.gif" alt="screenshot"/>
+
 The Counter component is a React component that allows you to increment, decrement, and reset a count value. It also displays an alert message when the count exceeds a certain limit.
 
 ## Installation

@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Counter Component - Reactjs
+The Counter component is a React component that allows you to increment, decrement, and reset a count value. It also displays an alert message when the count exceeds a certain limit.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+To use the Counter component in your React app, follow these steps:
 
-## Available Scripts
+1. Clone the repository or copy the Counter.js file into your project.
+2. In your project directory, install the required dependencies using npm:
+### `npm install`
+<br>
+1. Import the Counter component in your React application:
 
-In the project directory, you can run:
+#### `import Counter from './Counter';`
 
-### `npm start`
+## Usage
+Once you've imported the Counter component, you can use it in your React application as follows:
+#### `<Counter />`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Counter component renders a counter with buttons to increase, decrease, and reset the count. The count is displayed, and an alert message is shown if the count exceeds the limit.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Running the App
+To run the Counter component in your React app, you can follow these steps:
 
+1. Make sure you have the necessary dependencies installed (including React, ReactDOM, and styled-components).
+2. Create a new React component or modify an existing one to include the Counter component:
+3. Start your React development server:
+   #### `npm start`
+4. Open your web browser and navigate to the URL provided by the development server (usually http://localhost:3000).<br>
+   You should see the Counter component rendered in your app.
+
+## Testing
+To test the Counter component, you can use testing frameworks such as Jest and React Testing Library. Make sure to install the necessary dependencies and configure your testing environment accordingly.
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You able to see all the test case pass without any issue.
